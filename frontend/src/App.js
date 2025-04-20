@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 
 // API configuration
-const API_BASE_URL = "http://192.168.133.56:5000";
+const API_BASE_URL = "https://doccompare-ss5b.onrender.com";
 
 function App() {
   const [documents, setDocuments] = useState([]);
