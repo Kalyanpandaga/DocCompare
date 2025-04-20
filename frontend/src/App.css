@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.upload-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.documents-list {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.documents-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.documents-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.compare-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.compare-button:hover {
+  background-color: #45a049;
+}
+
+.compare-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.result-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.score-display {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4caf50;
+  margin: 20px 0;
+}
+
+.loading {
+  color: #666;
+  margin: 20px 0;
+}
+
+.error {
+  color: #f44336;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #ffebee;
+  border-radius: 4px;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}
